@@ -3,4 +3,4 @@ FlAGS = -I./headers -D _DEBUG -ggdb3 -std=c++17 -O0 -Wall -Wextra -Weffc++ -Wc++
 #make export
 
 all:
-	g++ $(FLAGS) main.cpp choice_mode.cpp test.cpp equation.cpp enter_output.cpp is_zero.cpp tests_from_txt.cpp my_assert.cpp my_realloc.cpp -I./headers -lm -o output
+	g++ $(FLAGS) main.cpp choice_mode.cpp test.cpp equation.cpp enter_output.cpp is_zero.cpp tests_from_txt.cpp my_assert.cpp my_realloc.cpp -I./headers -lm -o out
